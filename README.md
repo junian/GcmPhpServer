@@ -8,6 +8,19 @@ A collection of .NET console apps and scripts
 
 </div>
 
+## About
+
+This is a special repository to celebrate `dotnet run app.cs`, where you can just use a single C# file to run the script.
+
+You need [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) installed.
+
+Read example guide [here](https://www.junian.net/dev/dotnet-run-csharp-app/).
+
+## Content
+
+- [Hello, World!](./src/hello-world/)
+- [Year 2038 Problem](./src/year-2038-problem/)
+
 ## License
 
 [MIT](./LICENSE).
