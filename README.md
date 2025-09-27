@@ -20,6 +20,7 @@ Read example guide [here](https://www.junian.net/dev/dotnet-run-csharp-app/).
 
 - [Hello, World!](./src/hello-world/)
 - [Year 2038 Problem](./src/year-2038-problem/)
+- [ASP.NET Server Time](./src/aspdotnet-server-time/)
 
 ## License
 
