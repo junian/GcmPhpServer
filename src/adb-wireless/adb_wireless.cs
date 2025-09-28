@@ -24,7 +24,6 @@ foreach (var r in results)
         continue;
 
     foreach (var s in r.Services)
-    {
-        Console.WriteLine($"[{index++}] {r.DisplayName} {r.IPAddress}:{s.Value.Port}");
-    }
+        foreach(var ip in r.IPAddresses)
+            Console.WriteLine($"[{index++}] {r.DisplayName} {ip}:{s.Value.Port}");
 }
