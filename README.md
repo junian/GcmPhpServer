@@ -22,6 +22,15 @@ Read example guide [here](https://www.junian.net/dev/dotnet-run-csharp-app/).
 - [Year 2038 Problem](./src/year-2038-problem/)
 - [ASP.NET Server Time](./src/aspdotnet-server-time/)
 
+## Executable PATH
+
+If you're on macOS, Linux, or any Unix-like OS, you can set the `bin` folder in the path to directly execute the script.
+For example:
+
+```bash
+export PATH="$HOME/dotnet-console-apps/bin:$PATH"
+```
+
 ## License
 
 [MIT](./LICENSE).
